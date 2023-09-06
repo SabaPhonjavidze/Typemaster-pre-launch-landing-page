@@ -33,13 +33,13 @@
   align-items: center;
 }
 .Pre-order1 {
-    color: #162542;
-    font-family: Barlow;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 26px; /* 162.5% */
-    text-transform: uppercase;
+  color: #162542;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+  text-transform: uppercase;
 }
 .Button1:hover {
   border-radius: 8px;
@@ -60,6 +60,11 @@
   flex-direction: column;
   gap: 32px;
   margin-left: 24px;
+}
+.Flex {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .Starter {
@@ -125,6 +130,7 @@
   align-self: flex-end;
   width: 98%;
   flex-shrink: 0;
+  margin-top: 10px;
 }
 
 .Image-Container {
@@ -186,22 +192,23 @@
   line-height: 26px; /* 162.5% */
   width: 327px;
 }
-.Footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+.Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.Svg1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 24px  ;
-    margin-top: 111px;
+.Svg1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 111px;
 }
-.Compatible{
-    margin-bottom: 24px;
+.Compatible {
+  margin-bottom: 24px;
 }
 .Svg1-Header {
   color: #162542;
@@ -213,142 +220,375 @@
   line-height: 28px; /* 116.667% */
   text-transform: uppercase;
 }
-.Svg1-Txt{
-    color: #7B8BAD;
-text-align: center;
-font-family: Barlow;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px; /* 162.5% */
-width: 327px;
+.Svg1-Txt {
+  color: #7b8bad;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  width: 327px;
 }
 
-.Svg2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
+.Svg2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
-.Bluetooth{
- margin-bottom: 24px;
- margin-top: 64px;
+.Bluetooth {
+  margin-bottom: 24px;
+  margin-top: 64px;
 }
 .Svg2-Header {
-text-align: center;
-color: #162542;
-font-family: Barlow;
-font-size: 24px;
-font-style: normal;
-font-weight: 900;
-line-height: 28px; /* 116.667% */
-text-transform: uppercase;
-width: 310px;
-  }
-.Svg2-Txt{
-    color: #7B8BAD;
-text-align: center;
-font-family: Barlow;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px; /* 162.5% */
-width: 327px;
+  text-align: center;
+  color: #162542;
+  font-family: Barlow;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px; /* 116.667% */
+  text-transform: uppercase;
+  width: 310px;
 }
-.Svg3{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
+.Svg2-Txt {
+  color: #7b8bad;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  width: 327px;
 }
-.Battery{
-    margin-bottom: 24px;
- margin-top: 64px;
+.Svg3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
 }
-.Svg3-Header{
-    color: #162542;
-text-align: center;
-font-family: Barlow;
-font-size: 24px;
-font-style: normal;
-font-weight: 900;
-line-height: 28px; /* 116.667% */
-text-transform: uppercase;
-width: 327px;
+.Battery {
+  margin-bottom: 24px;
+  margin-top: 64px;
+}
+.Svg3-Header {
+  color: #162542;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px; /* 116.667% */
+  text-transform: uppercase;
+  width: 327px;
+}
+.Svg3-Txt {
+  color: #7b8bad;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  width: 327px;
+}
+.Svg4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.Light {
+  margin-bottom: 24px;
+  margin-top: 64px;
+}
+.Svg4-Header {
+  color: #162542;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px; /* 116.667% */
+  text-transform: uppercase;
+  width: 327px;
+}
+.Svg4-Txt {
+  color: #7b8bad;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  width: 327px;
+}
+.End {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 96px;
+  margin-bottom: 50px;
+  gap: 10px;
+}
+.T2021 {
+  color: #7b8bad;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 162.5% */
+}
+.Rights {
+  color: #7b8bad;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.Tick {
+  color: #7b8bad;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
 
-}
-.Svg3-Txt{
-    color: #7B8BAD;
-text-align: center;
-font-family: Barlow;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px; /* 162.5% */
-width: 327px;
-}
-.Svg4{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-}
-.Light{
-    margin-bottom: 24px;
-    margin-top: 64px;
-}
-.Svg4-Header{
+@media (min-width: 768px) {
+  .logo {
+    margin-left: 39px;
+    margin-top: 49px;
+  }
+
+  .Button1 {
+    width: 175px;
+    height: 58px;
+    margin-top: 39px;
+    margin-right: 40px;
+  }
+  .Pre-order1 {
     color: #162542;
-text-align: center;
-font-family: Barlow;
-font-size: 24px;
-font-style: normal;
-font-weight: 900;
-line-height: 28px; /* 116.667% */
-text-transform: uppercase;
-width: 327px;
-}
-.Svg4-Txt{
-    color: #7B8BAD;
-text-align: center;
-font-family: Barlow;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px; /* 162.5% */
-width: 327px;
-}
-.End{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 96px;
-    margin-bottom: 50px;
-    gap: 10px ;
-}
-.T2021{
-    color: #7B8BAD;
     font-family: Barlow;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 26px; /* 162.5% */
-}
-.Rights{
-    color: #7B8BAD;
-font-family: Barlow;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px;
+    text-transform: uppercase;
+  }
+  .Info {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+    margin-left: 39px;
+  }
 
-}
-.Tick{
-    color: #7B8BAD;
+  .Starter {
+    color: #162542;
+    font-family: Barlow;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; /* 100% */
+    text-transform: uppercase;
+    margin-top: 131px;
+  }
+  .Txt1 {
+    color: #7b8bad;
     font-family: Barlow;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 26px; /* 162.5% */
+    width: 339px;
+  }
+
+  .Info2 {
+    display: flex;
+    gap: 37px;
+    align-items: center;
+  }
+  .Button2 {
+    width: 175px;
+    height: 58px;
+    flex-shrink: 0;
+  }
+
+  .Img1 {
+    width: 43%;
+    height: 425px;
+    flex-shrink: 0;
+    margin-left: 45px;
+    margin-top: 62px;
+    align-self: flex-end;
+  }
+  .Info {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-left: 24px;
+  }
+  .Image-Container {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+    justify-content: center;
+  }
+
+  .Img2 {
+    opacity: 0.7486;
+    mix-blend-mode: multiply;
+    width: 214px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 20px;
+  }
+  .Bg {
+    border-radius: 20px;
+    background: #f16718;
+    mix-blend-mode: multiply;
+    width: 214px;
+    height: 320px;
+    flex-shrink: 0;
+    margin-left: -30px;
+  }
+  .Img3 {
+    width: 445px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    margin-right: -39px;
+  }
+  .Info3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 36px;
+    margin-top: 60px;
+    margin-left: 39px;
+  }
+  .Starter2 {
+    color: #162542;
+    font-family: Barlow;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px; /* 112.5% */
+    text-transform: uppercase;
+    text-align: left;
+    width: 255px;
+  }
+  .Txt2 {
+    color: #7b8bad;
+    text-align: left;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    width: 398px;
+  }
+
+  .Footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-left: -39px;
+    gap: 50px;
+  }
+  .Svg1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 142px;
+  }
+  .Compatible {
+    margin-bottom: 24px;
+    width: 65px;
+height: 65px;
+flex-shrink: 0;
+  }
+  .Svg1-Header {
+    text-align: left;
+    width: 281px;
+  }
+  .Svg1-Txt {
+    text-align: left;
+    width: 281px;
+  }
+
+  .Svg2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .Bluetooth {
+    margin-bottom: 24px;
+    margin-top: 142px;
+    width: 65px;
+height: 65px;
+flex-shrink: 0;
+  }
+  .Svg2-Header {
+    text-align: left;
+    width: 255px;
+  }
+  .Svg2-Txt {
+    width: 281px;
+    text-align: left;
+   
+  }
+  .Svg3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .Battery {
+    margin-bottom: 24px;
+    margin-top: 72px;
+    width: 65px;
+height: 65px;
+flex-shrink: 0;
+  }
+  .Svg3-Header {
+    text-align: left;
+    width: 281px;
+  }
+  .Svg3-Txt {
+    text-align: left;
+    width: 281px;
+  }
+  .Svg4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 24px;
+   
+
+  }
+  .Light {
+    margin-bottom: 24px;
+    margin-top: 72px;
+  }
+  .Svg4-Header {
+  text-align: left;
+  width: 281px;
+  }
+  .Svg4-Txt {
+  text-align:left;
+  width: 281px;
+  }
+ 
+  
+  
 }
